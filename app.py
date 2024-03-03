@@ -1,10 +1,10 @@
 import streamlit as st
 import pandas as pd
 import requests
-from streamlit_lottie import st_lottie
+# from streamlit_lottie import st_lottie
 import smtplib
-import datetime
-import matplotlib.pyplot as plt
+# import datetime
+# import matplotlib.pyplot as plt
 import os
 from PIL import Image
 import plotly.graph_objects as go
