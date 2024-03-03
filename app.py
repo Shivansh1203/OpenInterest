@@ -1,6 +1,5 @@
 import streamlit as st
 import pandas as pd
-import plotly.express as px
 import requests
 from streamlit_lottie import st_lottie
 import smtplib
