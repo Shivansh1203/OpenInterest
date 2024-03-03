@@ -1,6 +1,5 @@
 import streamlit as st
 import pandas as pd
-from prophet.plot import plot_plotly
 import plotly.express as px
 import requests
 from streamlit_lottie import st_lottie
