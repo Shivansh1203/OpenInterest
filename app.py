@@ -316,9 +316,11 @@ if selected_csv:
     # Display the dataframe (optional)
     st.write("Selected CSV data:")
     st.write(df)
+
+    df['Timestamp'] = pd.to_datetime(df['Timestamp'], format='%d-%m-%Y')
     
     # Convert 'Timestamp' column to datetime format
-    df['Timestamp'] = pd.to_datetime(df['Timestamp'])
+    # df['Timestamp'] = pd.to_datetime(df['Timestamp'])
     
     # Date range selection for Market Open Interest and Daily Range
     min_date = df['Timestamp'].min().date()
